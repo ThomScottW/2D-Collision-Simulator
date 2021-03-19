@@ -5,4 +5,4 @@ Credit to https://www.vobarian.com/collisions/2dcollisions2.pdf for the explanat
 
 This simluation uses the python third-party library Pygame for the visuals.
 
-To run this, you need to create a folder. Within that folder create another folder containing a python virtual environment with pygame installed. Once that is done, you can run 2D_Collisions.py and start observing the simulation.
+To run this, you need to create a folder with 2D_Collisions.py in it. Within that folder create another folder containing a python virtual environment with pygame installed. Once that is done, you can run 2D_Collisions.py and start observing the simulation.
