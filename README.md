@@ -1,4 +1,4 @@
-# Simple-Physics-Simlation
+# 2D Collision Simulator
 
 This is a python physics simulation that uses the Newtonian 1-Dimension collision equation to simlulate collisions in 2 Dimensions.
 Credit to https://www.vobarian.com/collisions/2dcollisions2.pdf for the explanation behind the collision resolution.
