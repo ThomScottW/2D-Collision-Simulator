@@ -158,11 +158,13 @@ class Particle:
             # unit normal vectors, we can use Newton's 1-dimensional collision
             # equation to calculate the final normal components of each particle's
             # velocity.
-            p1_final_norm_comp = (p1_initial_norm_comp * (self._mass - p2._mass) + 2 * p2._mass * p2_initial_norm_comp)
-             / (self._mass + p2._mass)
+            p1_final_norm_comp = ( (p1_initial_norm_comp * (self._mass - p2._mass)
+                                    + 2 * p2._mass * p2_initial_norm_comp) 
+                                    / (self._mass + p2._mass) )
 
-            p2_final_norm_comp = (p2_initial_norm_comp * (p2._mass - self._mass) + 2 * self._mass * p1_initial_norm_comp)
-             / (self._mass + p2._mass)
+            p2_final_norm_comp = ( (p2_initial_norm_comp * (p2._mass - self._mass)
+                                    + 2 * self._mass * p1_initial_norm_comp)
+                                    / (self._mass + p2._mass) )
 
             # Now that we have the final normal components of each velocity, we
             # multiply them by the unit normal vector to get the final normal vectors
